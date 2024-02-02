@@ -6,7 +6,7 @@ const App = () => {
 	const [result, setResult] = useState("");
 	const [exp, setExp] = useState("");
 	const handleClick = (data) => {
-		if (data == "C") {
+		if (data === "C") {
 			setExp("");
 			setResult("");
 		} else {
